@@ -4,7 +4,7 @@
 // Lista de nomes
 // Diogo Birello
 // Daniel Evandir :)
-//
+// Gustavo Mazetto
 
 /*
  * Pass as a parameter the trigger and echo pin, respectively,
