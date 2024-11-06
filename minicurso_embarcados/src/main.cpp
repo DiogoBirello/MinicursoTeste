@@ -1,6 +1,11 @@
 #include <Arduino.h>
 #include <Ultrasonic.h>
 
+// Lista de nomes
+// Diogo Birello
+// Daniel Evandir :)
+// Gustavo Mazetto
+
 /*
  * Pass as a parameter the trigger and echo pin, respectively,
  * or only the signal pin (for sensors 3 pins), like:
