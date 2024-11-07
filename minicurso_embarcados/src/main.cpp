@@ -26,14 +26,22 @@ void loop() {
   Serial.println(distance);
   if(distance <= 10)
   {
-    delay(100);
+    delay(125);
+    digitalWrite(13, HIGH);
+    delay(125);
   }
   else if (distance <= 20)
   {
-    delay(1000);
+    delay(500);
+    digitalWrite(13, HIGH);
+    delay(500);
   }
   else
   {
-    delay(2000);
+    delay(1000);
+    digitalWrite(13, HIGH);
+    delay(1000);
   }
+  digitalWrite(13, LOW);
 }
+
