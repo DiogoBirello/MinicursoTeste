@@ -24,5 +24,16 @@ void loop() {
   
   Serial.print("Distance in CM: ");
   Serial.println(distance);
-  delay(1000);
+  if(distance <= 10)
+  {
+    delay(100);
+  }
+  else if (distance <= 20)
+  {
+    delay(1000);
+  }
+  else
+  {
+    delay(2000);
+  }
 }
